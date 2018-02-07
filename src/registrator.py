@@ -26,7 +26,7 @@ def registrate(mail):
     url = 'https://prereg.bn-ent.net/common/serial.php'
     values = {
         'action' : 'sendmail',
-        'app' : 'imasml_theater',
+        'app' : 'imassc',
         'device_type' : '2',
         'mailAddr' : mail,
         'comMail' : ''
@@ -52,7 +52,7 @@ def main(mail_addresses_filename):
     mail_addresses_filename     the filename of the file containing the mail addresses.
     '''
     print('===================================================================')
-    print('  THE IDOLM@STER MILLION LIVE! THEATER DAYS Preregistration Tool   ')
+    print('  THE IDOLM@STER SHINY COLORS Preregistration Tool                 ')
     print('===================================================================')
 
     # Read mail addresses.
